@@ -5,7 +5,7 @@ class MyThread1 extends Thread{
         int i=0;
         while (i<2000){
             System.out.println("My thread is running");
-            System.out.println("I am Happy");
+            System.out.println("I am Happy");   
             i++;
         }
     }
